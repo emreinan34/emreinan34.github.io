@@ -7,53 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>LinguaLeap Account and Data Deletion</h1>
+    <h1>Account and Data Deletion</h1>
     
-    <p>This page provides instructions on how to permanently delete your LinguaLeap account and provides information on what data is removed.</p>
-      
-    <h2>How to Request Account Deletion</h2>
-    <p>You can request the deletion of your account and all associated data at any time from within the LinguaLeap application.</p>
+    <p>You have the right to request the permanent deletion of your LinguaLeap account. This action is irreversible. Please choose one of the two methods below to proceed.</p>
     
-    <!-- Use an ordered list for steps -->
+    <hr>
+    
+    <h2>Option 1: Delete From Inside the App</h2>
+    <p>This is the fastest and recommended method if you have access to the application.</p>
+    
     <ol>
         <li>Open the LinguaLeap app on your device and log in.</li>
-        <li>Navigate to the "Settings" screen using the bottom navigation bar.</li>
-        <li>Tap on the "Delete Account" button.</li>
+        <li>Navigate to the <strong>Settings</strong> tab using the bottom navigation bar.</li>
+        <li>Scroll to the bottom and tap the <strong>"Delete Account"</strong> button.</li>
         <li>Follow the on-screen prompts to confirm the permanent deletion of your account.</li>
     </ol>
+
+    <hr>
+
+    <h2>Option 2: Submit a Web Request</h2>
+    <p>If you no longer have access to the app, you can submit a deletion request using our web form. Please ensure you provide the email address associated with your LinguaLeap account. Requests are processed manually and may take a few business days to complete.</p>
     
-    <p><strong>Please note:</strong> This action is final and cannot be undone.</p>
+    <p>
+        <!-- Paste your shortened Google Form link here -->
+        <strong><a href="[YOUR GOOGLE FORM LINK HERE]" target="_blank">Go to the Account Deletion Request Form</a></strong>
+    </p>
+
+    <hr>
     
-    <h2>Data That Will Be Deleted</h2>
+    <h2>Data Deletion Information</h2>
+
+    <h3>Data That Will Be Deleted</h3>
     <p>Upon confirming your account deletion request, the following data associated with your account will be permanently removed from our live systems:</p>
     
-    <!-- Use an unordered list for bullet points -->
     <ul>
         <li><strong>Account Credentials:</strong> Your authentication information, including your email address and any stored login credentials from Firebase Authentication.</li>
         <li><strong>Personal Information:</strong> Your chosen Display Name / Username.</li>
-        <li><strong>Quiz and Score Data:</strong> All of your high scores, session history, and progress data for all language pairs and quiz durations stored in our Firestore database.</li>
+        <li><strong>Quiz and Score Data:</strong> All of your high scores, session history, and progress data for all language pairs and quiz durations.</li>
         <li><strong>Leaderboard Entries:</strong> Your username and scores will be removed from all public leaderboards.</li>
     </ul>
     
-    <h2>Data That Is Retained</h2>
+    <h3>Data That May Be Retained</h3>
     <p>To maintain and improve our services, some data is retained in an aggregated and fully anonymized form. This data cannot be linked back to you personally after your account has been deleted. This includes:</p>
     
     <ul>
-        <li><strong>Aggregated Analytics:</strong> Anonymized app usage data (e.g., feature popularity statistics) collected by Google Analytics for Firebase.</li>
-        <li><strong>Anonymized Performance Data:</strong> Anonymized crash logs and performance metrics from Firebase Crashlytics used for stability monitoring.</li>
+        <li><strong>Aggregated Analytics:</strong> Anonymized app usage data (e.g., feature popularity statistics).</li>
+        <li><strong>Anonymized Performance Data:</strong> Anonymized crash logs and performance metrics.</li>
     </ul>
     
-    <h2>Data Retention Period in Backups</h2>
-    <p>While your data is deleted from our live databases immediately upon request, it may persist in secure, encrypted backup archives for up to 90 days. After this period, the data is permanently erased from all backup systems.</p>
+    <h3>Data Retention in Backups</h3>
+    <p>While your data is deleted from our live production systems immediately, it may persist in secure, encrypted backup archives for up to 90 days before being permanently erased.</p>
+    
+    <hr>
     
     <h2>Contact Us</h2>
-    <p>For any questions or support requests, please contact us at: <a href="mailto:lingualeap.app@gmail.com">lingualeap.app@gmail.com</a></p>
+    <p>If you have any questions, please contact us at: <a href="mailto:lingualeap.app@gmail.com">lingualeap.app@gmail.com</a></p>
 
-    <!-- This horizontal rule creates the line/space above the link -->
-    <hr>
-       
-    <!-- This puts the link in its own paragraph for proper spacing -->
-    <p><a href="index.html">Back to Support Home</a></p>
+    <p style="margin-top: 30px;"><a href="index.html">Back to Support Home</a></p>
 
 </body>
 </html>
