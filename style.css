@@ -9,15 +9,33 @@ body {
     margin: 20px auto; /* Centers the content on wider screens */
 }
 
+/* This rule now ONLY targets the main section headers */
 h1, h2 {
     color: #222;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea; /* The line you wanted */
     padding-bottom: 10px;
     margin-top: 30px;
 }
 
+/* This new rule targets the sub-headers */
+h3 {
+    color: #333; /* Slightly less prominent than h2 */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* Note: No border-bottom here */
+}
+
 p {
     margin-bottom: 15px;
+}
+
+/* This makes lists look cleaner */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 a {
@@ -32,5 +50,5 @@ a:hover {
 hr {
     border: none;
     border-top: 1px solid #eaeaea;
-    margin: 30px 0;
+    margin: 40px 0; /* Increased margin for more separation */
 }
