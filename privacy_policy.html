@@ -22,18 +22,21 @@
             <p><strong>Email Address & Authentication Information:</strong> When you create an account, we collect your email address and authentication details (such as a hashed password or authentication tokens from Google Sign-In) to create and secure your account.</p>
         </li>
         <li>
-            <p><strong>Display Name / Username:</strong> We collect the username you choose, which is used to identify you on public leaderboards and within the community features of the App.</p>
+            <p><strong>Display Name & Extended Profile Data:</strong> We collect the username you choose, which identifies you on public leaderboards and community features. You may also voluntarily provide extended profile data (such as a biography, native language, learning goals, occupation, education, and links to your third-party social media profiles). If provided, this information is displayed publicly on your profile.</p>
         </li>
         <li>
-            <p><strong>Profile Photos:</strong> If you choose to upload a custom profile picture, we store this image to display on your profile, in leaderboards, and to your friends.</p>
+            <p><strong>Profile Photos:</strong> If you choose to upload a custom profile picture, we store this image to display on your profile, in leaderboards, and to other users.</p>
         </li>
         <li>
-            <p><strong>User Generated Content (Communications):</strong> We store the text messages you exchange with other users via the in-app chat feature, as well as your friend list and challenge history.</p>
+            <p><strong>User Generated Content & Challenges:</strong> We store text messages you exchange with friends via in-app chat, your friend list, and challenge history. Furthermore, if you create or participate in a "Global Challenge", your profile information and your specific quiz score for that match become publicly visible to the entire app community.</p>
         </li>
     </ul>
     
     <h3>Information Collected Automatically:</h3>
     <ul>
+        <li>
+            <p><strong>Push Notification Tokens:</strong> We collect and store device tokens (Firebase Cloud Messaging tokens) to send you push notifications regarding new chat messages, friend requests, and challenge updates.</p>
+        </li>
         <li>
             <p><strong>Quiz Performance Data:</strong> We store your quiz scores and progress for different language pairs and durations to provide you with your high score reports and to rank you on leaderboards.</p>
         </li>
@@ -78,9 +81,9 @@
     <p>You have the right to request the deletion of your account and its associated data at any time. You can initiate this process from the "Delete Account" option within the App's Settings screen.</p>
     <p>When you request account deletion, the following data is permanently removed from our live systems:</p>
     <ul>
-        <li><p><strong>Account Credentials:</strong> Your authentication information, including your email address and any stored login credentials, are deleted from Firebase Authentication.</p></li>
-        <li><p><strong>Personal Information:</strong> Your chosen Display Name, Username, and Profile Photo.</p></li>
-        <li><p><strong>User Generated Content:</strong> Your chat history, friend list, and challenge history are deleted.</p></li>
+        <li><p><strong>Account Credentials & Device Data:</strong> Your authentication information (including email address and stored login credentials) is deleted from Firebase Authentication. Associated device push notification tokens are also erased.</p></li>
+        <li><p><strong>Personal Information:</strong> Your Display Name, Username, Profile Photo, and any optionally provided extended profile data (biography, languages, occupation, education, and social media links).</p></li>
+        <li><p><strong>User Generated Content:</strong> Your chat history, friend list, and challenge history are permanently deleted.</p></li>
         <li><p><strong>Quiz and Score Data:</strong> All of your high scores, session history, and progress data for all language pairs and quiz durations stored in our Firestore database are deleted.</p></li>
         <li><p><strong>Leaderboard Entries:</strong> Your username and scores are removed from all leaderboards.</p></li>
     </ul>
